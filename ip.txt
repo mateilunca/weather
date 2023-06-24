@@ -1,0 +1,11 @@
+1.{{base.url}}/current.json?q=162.218.216.204&lat=40.69&lon=-111.87
+2.{{base.url}}/current.json?q=54.192.108.222&lat=53.33&lon=-6.25
+3.{{base.url}}/current.json?q=143.174.146.76&lat=-35.33&lon=149.17
+4.{{base.url}}/current.json?q=139.66.154.193&lat=49.31&lon=8.65
+5.{{base.url}}/current.json?q=37.100.60.187&lat=40.9&lon=14.38
+6.{{base.url}}/current.json?q=40.116.79.140&lat=41.85&lon=-87.65
+7.{{base.url}}/current.json?q=118.71.23.187&lat=21.03&lon=105.85
+8.{{base.url}}/current.json?q=44.210.5.10&lat=38.97&lon=-77.39
+9.{{base.url}}/current.json?q=217.251.224.133&lat=50.12&lon=8.68
+10.{{base.url}}/current.json?q=17.150.54.41&lat=37.32&lon=-122.03
+
