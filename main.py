@@ -45,6 +45,8 @@ def send_alerts(config, weather: dict):
             notification_alert.append(f"Viteza vantului este f mare : {v['wind_kph']} ")
         if v["pressure_mb"] > config["max_pressure"]:
             notification_alert.append(f"Presiunea atmosferica este f mare: {v['pressure_mb']} ")
+        if v['humidity_%'] > config["max_humidity"]:
+            notification_alert.append(f"Umiditatea este f mare: {v['humidity_%']} ")
 
         print(f"City: {city}\n" + "\n".join(notification_alert))
 
@@ -80,7 +82,6 @@ def init_config():
         exit()
 
 
-
 if __name__ == "__main__":
     print("Started script here")
     config = init_config()
@@ -90,5 +91,6 @@ if __name__ == "__main__":
         if city.lower() == "n":
             break
         weather[city] = get_weather(config["base_url"], city, auth=config["api_key"])
+    print()
 
     send_alerts(config, weather)
