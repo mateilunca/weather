@@ -55,7 +55,7 @@ def send_alerts(config, weather: dict):
                 app_icon=None,
                 timeout=10,
             )
-        time.sleep(6)
+        time.sleep(7)
 
 
 
